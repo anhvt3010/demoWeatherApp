@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e7ff7df-60a5-4b5e-8aca-ddc03fd96d88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/Navigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/controllers/SignInController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/controllers/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/daos/IDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/daos/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/dtos/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/services/SignInService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/services/SignUpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/utils/AlertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/utils/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/utils/PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/utils/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhvt/weather_app/validation/EmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/anhvt/weather_app/sign-in.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/anhvt/weather_app/sign-up.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YAAMqAz282xpwb2fmGvYRKD3E6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.33793104",
+    "settings.editor.selected.configurable": "preferences.general",
+    "spring.configuration.checksum": "0a886f62a5b2ecbbb185f5e2d14c1949",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.anhvt.weather_app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anhvt.weather_app.MainApplication" />
+      <module name="weather_app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e7ff7df-60a5-4b5e-8aca-ddc03fd96d88" name="Changes" comment="" />
+      <created>1699957964991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699957964991</updated>
+      <workItem from="1699957966025" duration="858000" />
+      <workItem from="1699958874415" duration="14000" />
+      <workItem from="1699958938875" duration="770000" />
+      <workItem from="1699959726439" duration="18000" />
+      <workItem from="1699959770248" duration="49000" />
+      <workItem from="1699959829716" duration="140000" />
+      <workItem from="1699960031365" duration="25000" />
+      <workItem from="1699960074023" duration="41000" />
+      <workItem from="1699960147985" duration="101000" />
+      <workItem from="1699960260924" duration="450000" />
+      <workItem from="1699960725797" duration="2691000" />
+      <workItem from="1699963436324" duration="1490000" />
+      <workItem from="1699964998028" duration="303000" />
+      <workItem from="1699965326810" duration="31000" />
+      <workItem from="1699965378721" duration="10000" />
+      <workItem from="1699965410624" duration="3374000" />
+      <workItem from="1699970161747" duration="1397000" />
+      <workItem from="1699971604258" duration="20000" />
+      <workItem from="1699971634678" duration="1778000" />
+      <workItem from="1699974298522" duration="83000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
