@@ -10,20 +10,16 @@ import org.springframework.stereotype.Service;
 import java.util.Optional;
 
 @Service
-public class UserService {
-    private final UserRepository userRepository;
-
+public class UserService implements IUserService {
     @Autowired
-    public UserService(UserRepository userRepository) {
-        this.userRepository = userRepository;
-    }
+    private UserRepository userRepository;
 
-    public User create(UserDTO userDTO){
-        User user = new User();
-        user.setEmail(userDTO.getEmail());
-        user.setPassword(PasswordEncoder.encodePassword(userDTO.getPassword()));
-        return userRepository.save(user);
-    }
+//    @Autowired
+//    public UserService(UserRepository userRepository) {
+//       this.userRepository = userRepository;
+//    }
+
+    @Override
     public String findUserByEmail(String email){
         if(userRepository.findUserByEmail(email) == null){
             return "ko co";
@@ -32,5 +28,14 @@ public class UserService {
     }
     public Optional<User> findUserByID(Long id){
         return userRepository.findById(id);
+    }
+
+    @Override
+    public User create(UserDTO userDTO) {
+        String email = userRepository.findUserByEmail(userDTO.getEmail());
+        User user = new User();
+        user.setEmail(userDTO.getEmail());
+        user.setPassword(PasswordEncoder.encodePassword(userDTO.getPassword()));
+        return userRepository.save(user);
     }
 }
